@@ -1,0 +1,38 @@
+body {
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#board {
+  background-color: dodgerblue;
+  height: 600px;
+  width: 800px;
+  margin-bottom: 200px;
+}
+
+.row {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col {
+  border-radius: 50%;
+  background-color: antiquewhite;
+  height: 75px;
+  width: 75px;
+}
